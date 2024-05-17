@@ -13,7 +13,7 @@ const Jobs: Array<BasicJobModel> = [
          to testing new exploits on 5G devices, to leading a development project of my own. Working in this cutting edge space has exposed me to new technologies seemingly daily, honing my development\
          skills as a full stack engineer through developing software on a range of systems, from the LLSC TX-Green supercomputer, to embedded microcontrollers, in a healthy variety of languages",
         end_date: "Present",
-        start_date: "05-01-2022",
+        start_date: "2022",
         roles: [
             {
                 display_name: "Project Lead",
@@ -33,6 +33,36 @@ const Jobs: Array<BasicJobModel> = [
                 summary: "On Project #2 I acted as a contributor to both the web-app frontend of our prototype system, and added features/squashed bugs on another software component that interfaced with software defined\
                     radios. Recently the prototype system that was built has been deployed operationally by the programs sponsor.",
                 technologies: ["C++ (16)", "Software Defined Radios", "Raspberry PI", "Nvidia Jetson", "Generative AI", "React", "Linux", "Embedded Systems"]
+            }
+        ]
+    },
+    {
+        id: "2",
+        title: "Cyber Security Software Engineer",
+        workplace: {
+            name: "MITRE",
+            link: "https://www.mitre.org/our-impact/mitre-labs/cyber-solutions-innovation-center"
+        },
+        description: "Worked as an individual software contributor to research and develop applications for the DoD and DoJ",
+        start_date: "2020",
+        end_date: "2022",
+        type: "PROFESSIONAL",
+        roles: [
+            {
+                display_name: "Individual Contributor (Research)",
+                start_date: "2020",
+                end_date: "2022",
+                summary: "this is a summary",
+                technologies: [],
+                project_name: "Project #1"
+            },
+            {
+                display_name: "Individual Contributor (Sole Developer)",
+                start_date: "2020",
+                end_date: "2022",
+                summary: "this is a summary",
+                technologies: [],
+                project_name: "Project #2"
             }
         ]
     }

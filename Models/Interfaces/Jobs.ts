@@ -18,6 +18,7 @@ export interface BasicJobModel{
     description: string;
     start_date: string;
     end_date: string;
+    thumbnail?: string; //this is a url to an image representing the job
     roles?: Array<JobRoles>;
 }
 
